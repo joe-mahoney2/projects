@@ -1,7 +1,7 @@
 class_name enum_t
 
 enum dirX   {NONE, LEFT, RIGHT}
-enum aDirX  {NONE, LEFT, RIGHT}
+enum aDirX  {NONE, LEFT=-1, RIGHT=1}
 enum dirY   {NONE, UP, DOWN}
 enum aDirY  {NONE, UP, DOWN}
 enum mod    {NONE, SHIFT, CTRL}
