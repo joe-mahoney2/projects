@@ -1,12 +1,12 @@
 class_name player_t
 
-var ui = ui_t.new()
+var BASE_SPEED = 2
+var SPRINT     = 2.5
+
+var health
+var stamina
 
 func _init():
-	pass
-
-func process():
-	ui.process()
 	pass
 
 func _reset():

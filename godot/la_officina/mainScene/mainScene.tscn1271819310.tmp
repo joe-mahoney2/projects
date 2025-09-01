@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2p4syg0yl71f"]
+
+[ext_resource type="PackedScene" uid="uid://dx2y0lk0bgaly" path="res://test/gdTest.tscn" id="1_th333"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="GdTest" parent="." instance=ExtResource("1_th333")]
+position = Vector2(74, 81)
+
+[node name="GdTest2" parent="." instance=ExtResource("1_th333")]
+position = Vector2(71, 318)
